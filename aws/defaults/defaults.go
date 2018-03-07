@@ -15,15 +15,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds"
-	"github.com/aws/aws-sdk-go/aws/credentials/endpointcreds"
-	"github.com/aws/aws-sdk-go/aws/ec2metadata"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/weAutomateEverything/aws-sdk-go/aws"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/awserr"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/corehandlers"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/credentials"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/credentials/ec2rolecreds"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/credentials/endpointcreds"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/ec2metadata"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/endpoints"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/request"
 )
 
 // A Defaults provides a collection of default values for SDK clients.

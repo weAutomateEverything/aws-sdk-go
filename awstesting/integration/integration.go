@@ -10,8 +10,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
+	"github.com/weAutomateEverything/aws-sdk-go/aws"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/session"
 )
 
 // Session is a shared session for all integration tests to use.

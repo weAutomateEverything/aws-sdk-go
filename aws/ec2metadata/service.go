@@ -16,12 +16,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/weAutomateEverything/aws-sdk-go/aws"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/awserr"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/client"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/client/metadata"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/corehandlers"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/request"
 )
 
 // ServiceName is the name of the service.

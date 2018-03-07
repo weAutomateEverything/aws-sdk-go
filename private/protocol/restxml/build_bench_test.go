@@ -11,14 +11,14 @@ import (
 	"bytes"
 	"encoding/xml"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/private/protocol/restxml"
-	"github.com/aws/aws-sdk-go/service/cloudfront"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/weAutomateEverything/aws-sdk-go/aws"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/credentials"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/endpoints"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/request"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/session"
+	"github.com/weAutomateEverything/aws-sdk-go/private/protocol/restxml"
+	"github.com/weAutomateEverything/aws-sdk-go/service/cloudfront"
+	"github.com/weAutomateEverything/aws-sdk-go/service/s3"
 )
 
 var (

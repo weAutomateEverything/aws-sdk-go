@@ -4,10 +4,10 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol/restxml"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/awserr"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/client"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/request"
+	"github.com/weAutomateEverything/aws-sdk-go/private/protocol/restxml"
 )
 
 func init() {

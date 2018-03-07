@@ -9,9 +9,9 @@
 package autoscalingiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/autoscaling"
+	"github.com/weAutomateEverything/aws-sdk-go/aws"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/request"
+	"github.com/weAutomateEverything/aws-sdk-go/service/autoscaling"
 )
 
 // AutoScalingAPI provides an interface to enable mocking the

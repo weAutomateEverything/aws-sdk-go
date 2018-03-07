@@ -4,8 +4,8 @@
 package cloudhsmv2
 
 import (
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/cloudhsmv2"
+	"github.com/weAutomateEverything/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/weAutomateEverything/aws-sdk-go/service/cloudhsmv2"
 	"github.com/gucumber/gucumber"
 )
 

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/weAutomateEverything/aws-sdk-go/aws"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/awserr"
+	"github.com/weAutomateEverything/aws-sdk-go/service/dynamodb"
 )
 
 func TestUnmarshalErrorTypes(t *testing.T) {

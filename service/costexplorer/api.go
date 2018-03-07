@@ -3,9 +3,9 @@
 package costexplorer
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/weAutomateEverything/aws-sdk-go/aws"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/awsutil"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/request"
 )
 
 const opGetCostAndUsage = "GetCostAndUsage"

@@ -4,8 +4,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/defaults"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/credentials"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/defaults"
 )
 
 // EnvProviderName provides a name of the provider when config is loaded from environment.

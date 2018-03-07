@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/route53"
+	"github.com/weAutomateEverything/aws-sdk-go/aws"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/awserr"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/request"
+	"github.com/weAutomateEverything/aws-sdk-go/awstesting/unit"
+	"github.com/weAutomateEverything/aws-sdk-go/service/route53"
 )
 
 func makeClientWithResponse(response string) *route53.Route53 {

@@ -5,9 +5,9 @@ package sqs_test
 import (
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/sqs"
+	"github.com/weAutomateEverything/aws-sdk-go/aws"
+	"github.com/weAutomateEverything/aws-sdk-go/awstesting/unit"
+	"github.com/weAutomateEverything/aws-sdk-go/service/sqs"
 )
 
 func TestFlattenedTraits(t *testing.T) {

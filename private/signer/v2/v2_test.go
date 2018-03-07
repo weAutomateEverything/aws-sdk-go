@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting"
+	"github.com/weAutomateEverything/aws-sdk-go/aws"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/credentials"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/request"
+	"github.com/weAutomateEverything/aws-sdk-go/awstesting"
 )
 
 type signerBuilder struct {
