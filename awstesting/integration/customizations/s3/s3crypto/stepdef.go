@@ -12,11 +12,11 @@ import (
 
 	"github.com/gucumber/gucumber"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/kms"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3crypto"
+	"github.com/weAutomateEverything/aws-sdk-go/aws"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/session"
+	"github.com/weAutomateEverything/aws-sdk-go/service/kms"
+	"github.com/weAutomateEverything/aws-sdk-go/service/s3"
+	"github.com/weAutomateEverything/aws-sdk-go/service/s3/s3crypto"
 )
 
 func init() {

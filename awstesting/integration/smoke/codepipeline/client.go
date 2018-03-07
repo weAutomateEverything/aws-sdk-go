@@ -4,8 +4,8 @@
 package codepipeline
 
 import (
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/codepipeline"
+	"github.com/weAutomateEverything/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/weAutomateEverything/aws-sdk-go/service/codepipeline"
 	"github.com/gucumber/gucumber"
 )
 

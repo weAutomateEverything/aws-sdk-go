@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
+	"github.com/weAutomateEverything/aws-sdk-go/aws"
+	"github.com/weAutomateEverything/aws-sdk-go/aws/client"
+	"github.com/weAutomateEverything/aws-sdk-go/awstesting/unit"
 )
 
 func TestCustomRetryer(t *testing.T) {

@@ -1,6 +1,6 @@
 package connectiface
 
-import "github.com/aws/aws-sdk-go/service/connect"
+import "github.com/weAutomateEverything/aws-sdk-go/service/connect"
 
 type ConnectAPI interface {
 	StartOutboundVoiceContact(*connect.StartOutboundVoiceContactInput) (connect.StartOutboundVoiceContactOutput, error)
